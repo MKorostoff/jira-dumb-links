@@ -13,7 +13,7 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 ![jira before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__jira_before.png?raw=true)
 
-**What jira displays:**
+**What jira displays without this plugin**
 
 ![jira after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__jira_after.png?raw=true)
 
@@ -23,7 +23,7 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 ![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__devstage_before.png?raw=true)
 
-**What jira displays:**
+**What jira displays without this plugin**
 
 ![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__devstage_after.png?raw=true)
 
@@ -33,7 +33,7 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 ![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__contentful_before.png?raw=true)
 
-**What jira displays:**
+**What jira displays without this plugin**
 
 ![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__contentful_after.png?raw=true)
 
