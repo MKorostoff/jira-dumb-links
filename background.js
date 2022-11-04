@@ -3,7 +3,7 @@ chrome.declarativeNetRequest.updateDynamicRules({
     {
       'id': 1337,
       'action': {'type': 'block'},
-      'condition': {'urlFilter': 'https://*.atlassian.net/gateway/api/object-resolver/check'}
+      'condition': {'urlFilter': 'https://*.atlassian.net/gateway/api/object-resolver/check'},
     },
     {
       'id': 1338,
@@ -16,4 +16,9 @@ chrome.declarativeNetRequest.updateDynamicRules({
       'condition': {'urlFilter': 'https://*.atlassian.net/gateway/api/object-resolver/resolve'}
     }
   ],
+  removeRuleIds: [
+    1337,
+    1338,
+    1339
+  ]
 })
