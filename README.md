@@ -54,5 +54,15 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 - Provide a "quick disable" feature from the browser toolbar
 - Provide settings to let users control which links get smart linked (for instance, keep smart links for external URLs, but keep them for jira issues; keep smart links for certain domains)
 - Provide settings to let the user control which atlasian products allow smart links (for instance, opt in for jira, opt out for confluence).
-- Change the behavior of jira issue links so they display as `<a href="https://yourdomain.atlassian.net/browse/TICKET-123">TICKET-123</a>` instead of `<a href="https://yourdomain.atlassian.net/browse/TICKET-123">https://yourdomain.atlassian.net/browse/TICKET-123</a>`
 - Remove smart links when reading other people's comments, not just when writing comments.
+- Change the behavior of jira issue links so they display as
+
+```html
+<a href="https://yourdomain.atlassian.net/browse/TICKET-123">TICKET-123</a>
+```
+
+instead of:
+
+```html
+<a href="https://yourdomain.atlassian.net/browse/TICKET-123">https://yourdomain.atlassian.net/browse/TICKET-123</a>
+```
