@@ -27,7 +27,7 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 ![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__devstage_after.png?raw=true)
 
-## Smartlinks fail for content that requires a login:
+## Smartlinks fail for content that requires a login
 
 **What you wrote:**
 
