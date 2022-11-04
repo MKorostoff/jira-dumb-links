@@ -1,5 +1,5 @@
 # About This Project
-This is a Google Chrome browser plugin that disables [smart links](https://community.atlassian.com/t5/Confluence-articles/Smart-Links-a-richer-way-to-hyperlink/ba-p/1412786) in Jira. Once it is installed, URLs will remain as you typed them, and will not be replaced by smart links. It **will not** remove smart links from content authored by other people, only for content authored in a browser with this plugin installed.
+This is a Google Chrome browser plugin that disables [smart links](https://community.atlassian.com/t5/Confluence-articles/Smart-Links-a-richer-way-to-hyperlink/ba-p/1412786) in Jira. Once it is installed, URLs will remain as you typed them, and will not be replaced by smart links. It **will not** remove smart links from content authored by other people, only for content authored by you in a browser with this plugin installed.
 
 # Why?
 
