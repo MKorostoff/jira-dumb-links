@@ -10,26 +10,26 @@ This is a bad feature. It makes written comments harder to understand, hides imp
 For instance, smartlinks inject unhelpful additional information into the page:
 
 ## What you wrote:
-![jira before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_jira_before.png?raw=true)
+![jira before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__jira_before.png?raw=true)
 
 ## What jira displays:
-![jira after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_jira_after.png?raw=true)
+![jira after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__jira_after.png?raw=true)
 
 Smartlinks make it harder to tell the difference between a dev, stage, and production URL:
 
 ## What you wrote:
-![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_devstage_before.png?raw=true)
+![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__devstage_before.png?raw=true)
 
 ## What jira displays:
-![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_devstage_after.png?raw=true)
+![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__devstage_after.png?raw=true)
 
 Smartlinks fail for content that requires a login:
 
 ## What you wrote:
-![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_contentful_before.png?raw=true)
+![dev stage before](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__contentful_before.png?raw=true)
 
 ## What jira displays:
-![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/_contentful_after.png?raw=true)
+![dev stage after](https://github.com/MKorostoff/jira-dumb-links/blob/master/docs/__contentful_after.png?raw=true)
 
 Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from](https://jira.atlassian.com/browse/JRACLOUD-72429) Atlassian [users](https://community.atlassian.com/t5/Jira-questions/Is-there-a-way-to-disable-links-transformation-in-JIRA/qaq-p/1728471), there is no way to globally disable the smart links, even for system administrators. The only way to avoid smart links is by manually setting the display mode to "URL" for each and every link you type.
 
