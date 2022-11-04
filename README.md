@@ -35,7 +35,16 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 
 # Installation
+- Download the code in this repository
+- Load the plugin to chrome as an [unpacked extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
 
 # Limitiations
+- This plugin will only stop smartlinks from being added to comments you write. It will not stop smartlinks from displaying in other people's comments.
+- Theoretically, this should work with all Atlassian products, but I've only tested it with Jira.
+- This plugin works by blocking the specific URLs used to fetch smartlink meta-data. If Atlassian ever changes those URLs, the plugin will fail.
+- There is no way to opt-in for smartlinks sometimes, and opt out for others. If you want smart links temporarily, you can disable the extension.
+- If you add a dumb link to a confluence page, and someone else later edits that page, it may turn into a smart link.
+- Links to jira issues are still part-way smart. If you type "TICKET-123" it will become "https://yourdomain.atlassian.net/browse/TICKET-123" which is an improvement over the default behavior, but I'd still prefer if the visible ticket number didn't change at all from the way I wrote it, except maybe becoming clickable.
 
 # Roadmap
+- Provide a "quick disable" feature from the browser tool
