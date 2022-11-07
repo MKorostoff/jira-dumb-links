@@ -39,6 +39,10 @@ Despite [repeated](https://jira.atlassian.com/browse/JRACLOUD-77107) pleas [from
 
 
 # Installation
+This is available to [install through the google chrome store](https://chrome.google.com/webstore/detail/jira-dumb-links/benhkamiokceniccopchdlkhcjaakpno). Simply navigate to the plugin page and click 'add to chrome.'
+
+**Alternative installation**
+(If you wish to view or modify the source code)
 - Download the code in this repository
 - Load the plugin to chrome as an [unpacked extension](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
 
